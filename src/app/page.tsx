@@ -1,4 +1,3 @@
-//hookswap-frontend\src\app\page.tsx - Optimized Version
 'use client';
 
 import { useEffect, useState, lazy, Suspense } from 'react';
@@ -74,9 +73,9 @@ export default function HomePage() {
               <div className="w-16 h-1 bg-gradient-to-r from-purple-600 to-blue-600 mx-auto rounded-full"></div>
             </div>
             <p className="text-lg sm:text-xl text-white/70 max-w-2xl mx-auto">
-              Sàn giao dịch phi tập trung đầu tiên hỗ trợ{' '}
+              The first decentralized exchange supporting{' '}
               <span className="text-purple-400 font-semibold">Token-2022</span>{' '}
-              với{' '}
+              with{' '}
               <span className="text-blue-400 font-semibold">Transfer Hooks</span>
             </p>
           </div>
@@ -89,7 +88,7 @@ export default function HomePage() {
               </div>
               
               <h2 className="text-xl sm:text-2xl font-semibold text-white">
-                Kết nối để bắt đầu
+                Connect to get started
               </h2>
               
               {/* Wallet Connection */}
@@ -117,7 +116,7 @@ export default function HomePage() {
               )}
 
               <div className="text-center text-white/60 text-sm">
-                Hỗ trợ Phantom, Solflare và nhiều ví khác
+                Supports Phantom, Solflare and many other wallets
               </div>
             </div>
           </div>
@@ -128,19 +127,19 @@ export default function HomePage() {
               {
                 icon: Shield,
                 title: "KYC Compliance",
-                description: "Xác thực KYC tự động cho mọi giao dịch",
+                description: "Automatic KYC verification for all transactions",
                 color: "purple",
               },
               {
                 icon: Users,
                 title: "Whitelist Control", 
-                description: "Kiểm soát truy cập với hệ thống whitelist",
+                description: "Access control with whitelist system",
                 color: "blue",
               },
               {
                 icon: Zap,
                 title: "Token-2022",
-                description: "Hỗ trợ đầy đủ Token-2022 với Transfer Hooks",
+                description: "Full support for Token-2022 with Transfer Hooks",
                 color: "indigo", 
               },
             ].map((feature, idx) => (
@@ -196,7 +195,7 @@ function TechnologySection() {
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-3xl font-bold text-white mb-4">🚀 Live on Solana Devnet</h2>
         <p className="text-white/70 mb-8">
-          Tất cả smart contracts đã được deploy và sẵn sàng sử dụng
+          All smart contracts have been deployed and are ready to use
         </p>
         
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
